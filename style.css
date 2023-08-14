@@ -1,0 +1,118 @@
+html {
+            box-sizing: border-box;
+            font-family: 'karla';
+            font-size: 16px;
+            font-weight: 400;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        h2, h4, p {
+            margin: 0px;
+        }
+        body {
+            padding: 20px;
+            background-color: rgb(227, 226, 226);
+            
+        }
+        .card {
+            position: absolute;
+            top: 20%;
+            left: 30%;
+            height: 450px;
+            width: 700px;
+            box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.305);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .top-box {
+            height:40%;
+            width:100%;
+            padding: 25px;
+            background-color: white;
+            
+        }
+        .bottom-section {
+            height:60%;
+            width:100%;
+            color: white;
+        }
+        .bottom-left-box {
+            display: inline-block;
+            height: 100%;
+            width: 50%;
+            vertical-align: top;
+            background-color: #2ab2af;
+            padding: 25px;
+
+        }
+        .bottom-left-box h4 {
+           margin-bottom: 20px;
+        }
+        .bottom-right-box {
+            display: inline-block;
+            height: 100%;
+            width: 50%;
+            vertical-align: top;
+            background-color:#24c9c6;
+            padding: 25px;
+            
+        }
+        .top-box h2 {
+            color: #2ab2af;
+            margin-bottom: 15px;
+        }
+        .top-box h4 {
+          color:#c0df34;
+          margin-bottom: 10px;
+        }
+        .top-box p {
+            color: lightgray;
+            margin-bottom: 20px;
+        }
+        #price {
+           font-size: 1.5rem;
+           font-weight: 700;
+           
+        }
+        #price-container div {
+            display: inline-block;
+        } 
+        #price-frequency {
+            position: relative;
+            top: -3px;
+            font-size: 0.9rem;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            opacity: 0.8;
+        }
+        .bottom-left-box p {
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        .bottom-right-box ul {
+            padding: 0;
+            list-style: none;  
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        .bottom-right-box li {
+           margin-bottom: 3px;
+        }
+        .bottom-right-box h4 {
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #c0df34;
+            color: white;
+            height: 25%;
+            width: 85%;
+            border-radius: 5px;
+            border: transparent;
+            margin: 10px;;;
+            font-weight: 700;
+        }
+        button:hover {
+            background-color:#A9C42D;
+            
+        }
